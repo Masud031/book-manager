@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white mt-10">
+    <footer className="bg-gray-800 text-white mt-10 mb-0">
       <div className="max-w-7xl mx-auto px-4 py-8 sm:flex sm:items-center sm:justify-between">
         <div className="text-center sm:text-left">
           <h2 className="text-lg font-semibold">📚 Book Library</h2>
