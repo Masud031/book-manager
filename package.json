@@ -7,12 +7,10 @@
   "scripts": {
     "start": "concurrently \"tsc --watch\" \"nodemon ./dist/app/server.js\"",
     "start:prod": "nodemon ./dist/server/js",
-    "build": "tsc",
-
+    "build": "vite build",
     "dev": "tsx src/server.ts",
     "client": "vite",
     "build:watch": "tsc --watch",
-    
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix"
   },

@@ -4,7 +4,7 @@ import type { IBorrow } from "../../types/types";
 export const borrowApi = createApi({
   reducerPath: "borrowApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api", // 
+  baseUrl: import.meta.env.VITE_API_URL,  // 
   }),
   tagTypes: ["Borrows"],
   endpoints: (builder) => ({
